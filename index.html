@@ -8,26 +8,13 @@
   </head>
   <body>
     <div id="app"></div>
-
-    <!-- 技術文書を作ってみよう -->
     <main>
-      <h1>フロントエンドの勉強</h1>
-      <!-- <h1>
-        <a
-          href="https://ja.vitejs.dev/guide/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Viteとは</a
-        >
+      <h1 class="heading-tech-articles">
+        フロントエンドの勉強
+        <br />-技術文書を作ってみよう-
       </h1>
-      <p>
-        Vite（フランス語で「素早い」という意味の単語で /vit/
-        ヴィートのように発音）は、現代の Web
-        プロジェクトのために、より速く無駄のない開発体験を提供することを目的としたビルドツールです。2
-        つの主要な部分で構成されています:
-      </p> -->
-      <article>
-        <h2>
+      <article class="tech-article">
+        <h2 class="headding-tech-article">
           <a
             href="https://qiita.com/hashrock/items/15f4a4961183cfbb2658"
             target="_blank"
@@ -35,21 +22,23 @@
             >node.jsのnpmコマンドについて</a
           >
         </h2>
-        <dl>
+        <dl class="tech-term">
           <dt><code>$ npm init</code></dt>
           <dd>「現在のディレクトリ下はnpmが管理する」という宣言</dd>
           <dt><code>$ npm install パッケージ名</code></dt>
           <dd>npmのリポジトリからパッケージをダウンロードしてくるコマンド</dd>
           <dt><code>$ npm run hogehoge</code></dt>
           <dd>
-            package.jsonに書かれたシェルスクリプトを実行するコマンド
-            <pre>例:<code>$ npm run dev</code>はpackage.jsonのdevを実行する</pre>
+            <pre>
+              package.jsonに書かれたシェルスクリプトを実行するコマンド
+              例 : <code>$ npm run dev</code> はpackage.jsonのdevを実行する
+            </pre>
           </dd>
         </dl>
       </article>
-      <article>
-        <h2>gitのコマンド</h2>
-        <dl>
+      <article class="tech-article">
+        <h2 class="headding-tech-article">gitのコマンド</h2>
+        <dl class="tech-term">
           <dt>よく使うgitのコマンド</dt>
           <dd>
             add, checkout(またはswitch), clone, commit, fetch, merge, pull, push
@@ -57,8 +46,8 @@
           <dt>その次に使うgitのコマンド</dt>
           <dd>reset rebase cherry-pick</dd>
         </dl>
-        <h2>gitコマンドの具体例</h2>
-        <dl>
+        <h2 class="headding-tech-article">gitコマンドの具体例</h2>
+        <dl class="tech-term">
           <dt><code>$ git add .</code></dt>
           <dd>変更からステージへ全てを持っていくコマンド</dd>
           <dt><code>$ git commit -m "内容"</code></dt>
@@ -73,8 +62,8 @@
           </dt>
           <dd>ローカルのブランチをリモートの同名ブランチにpushする</dd>
         </dl>
-        <h2>gitのマイルール</h2>
-        <dl>
+        <h2 class="headding-tech-article">gitのマイルール</h2>
+        <dl class="tech-term">
           <dt>commitはタスク単位でやろう</dt>
           <dd>
             なぜなら、大きな作業単位だと、あとで見返す時の負担が重くなるから
@@ -85,73 +74,116 @@
           </dd>
         </dl>
       </article>
+      <article class="tech-article">
+        <h2 class="headding-tech-article">vite</h2>
+        <dl class="tech-term">
+          <dt>
+            <a
+              href="https://ja.vitejs.dev/guide/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Viteとは</a
+            >
+          </dt>
+          <dd>
+            現代のWebプロジェクトのために、より速く無駄のない開発体験を提供することを目的としたビルドツールです。2
+            つの主要な部分で構成されています
+          </dd>
+        </dl>
+      </article>
+      <article class="tech-article">
+        <h2 class="headding-tech-article">zsh</h2>
+        <dl class="tech-term">
+          <dt>
+            <a
+              href="https://zenn.dev/xeres/articles/2021-05-05-understanding-zinit-syntax"
+              target="_blank"
+              rel="noopener noreferrer"
+              >zinit</a
+            >
+          </dt>
+          <dd>
+            zsh の便利なプラグインを管理するツール。
+            <a
+              href="https://github.com/zdharma-continuum/zinit"
+              target="_blank"
+              rel="noopener noreferrer"
+              >zinitインストール</a
+            >
+          </dd>
+        </dl>
+      </article>
+      <article class="tech-article">
+        <h2 class="headding-tech-article">HTMLについて</h2>
+        <dl class="tech-term">
+          <dt>
+            <a
+              href="https://web-camp.io/magazine/archives/82442"
+              target="_blank"
+              rel="noopener noreferrer"
+              >aタグの使い方</a
+            >
+          </dt>
+          <dd>
+            別タブで開きたい場合、<a
+              href="https://wwg.co.jp/blog/3807"
+              target="_blank"
+              rel="noopener noreferrer"
+              >target="_blank"</a
+            >
+            と rel="noopener noreferrer" をaタグに記述する。
+          </dd>
+          <dt>
+            <a
+              href="https://webst8.com/blog/html-dldtdd/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >dl・dt・ddタグ</a
+            >
+          </dt>
+          <dd>
+            説明リストタグといい、「用語の説明」や「Q&A」「お知らせ(日付とタイトル)」などでよく用いられる
+          </dd>
+        </dl>
+      </article>
+      <article class="tech-article">
+        <h2 class="headding-tech-article">cssについて</h2>
+        <dl class="tech-term">
+          <dt>reset.css</dt>
+          <dd>
+            ブラウザ等の標準で当てられているcssをリセットして、自分のstyle.cssを当てるためのツール。
+            <br />リセットcssには完全にリセットするのと、ある程度のcssは残す仕様のものがある。
+            <br />npm packageでインストールしよう。
+          </dd>
+          <dt>
+            <a
+              href="https://developer.mozilla.org/ja/docs/Web/CSS/Specificity"
+              target="_blank"
+              rel="noopener noreferrer"
+              >CSSの詳細度</a
+            >
+          </dt>
+          <dd>
+            ある要素に最も関連性の高い CSS
+            宣言を決定するためにブラウザーが使用するアルゴリズム
+          </dd>
+        </dl>
+      </article>
 
-      <p>reset.cssの意味を調べ npm package でインストールする</p>
-
-      <p>
-        <a
-          href="https://web-camp.io/magazine/archives/82442"
-          target="_blank"
-          rel="noopener noreferrer"
-          >aタグの使い方</a
-        >
-        : 別タブで開きたい場合、<a
-          href="https://wwg.co.jp/blog/3807"
-          target="_blank"
-          rel="noopener noreferrer"
-          >target="_blank"</a
-        >
-        と rel="noopener noreferrer" をaタグに記述する。
-      </p>
-
-      <p>
-        <a
-          href="https://zenn.dev/xeres/articles/2021-05-05-understanding-zinit-syntax"
-          target="_blank"
-          rel="noopener noreferrer"
-          >zinit</a
-        >
-        : zsh の便利なプラグインを管理するツール。
-        <a
-          href="https://github.com/zdharma-continuum/zinit"
-          target="_blank"
-          rel="noopener noreferrer"
-          >zinitインストール</a
-        >
-      </p>
-
-      <p>
-        <a
-          href="https://developer.mozilla.org/ja/docs/Web/CSS/Specificity"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CSSの詳細度</a
-        >
-        : ある要素に最も関連性の高い CSS
-        宣言を決定するためにブラウザーが使用するアルゴリズム
-      </p>
-
-      <p>
-        <a
-          href="https://webst8.com/blog/html-dldtdd/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >dl・dt・ddタグ</a
-        >
-        :
-        説明リストタグといい、「用語の説明」や「Q&A」「お知らせ(日付とタイトル)」などでよく用いられる、HTMLタグ
-      </p>
-
-      <p>
-        <a
-          href="https://dubdesign.net/web/ui-design/carousel-ui/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >カルーセルUI</a
-        >
-        :
-        複数の選択肢やコンテンツを列に表示する場合に利用する。ぜひ使ってみよう。
-      </p>
+      <h2 class="headding-tech-article">UI</h2>
+      <dl class="tech-term">
+        <dt>
+          <a
+            href="https://dubdesign.net/web/ui-design/carousel-ui/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >カルーセルUI</a
+          >
+        </dt>
+        <dd>
+          複数の選択肢やコンテンツを列に表示する場合に利用する。ぜひ使ってみよう。
+        </dd>
+      </dl>
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
