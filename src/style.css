@@ -106,22 +106,20 @@ button:focus-visible {
   color-scheme: light dark;
   /* background-color: #242424; */
   background-color: #000000;
+}
 
+*{
   box-sizing: border-box;
 }
 
 body{
   width: 80%;
   margin: 0 auto;
-
-  box-sizing: border-box;
 }
 
 .heading-tech-articles{
   font-size: 48px;
   text-align: center;
-
-  box-sizing: border-box;
 }
 
 .tech-article{
@@ -129,32 +127,22 @@ body{
   border-top: 2px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
-
-  box-sizing: border-box;
 }
 .headding-tech-article{
   font-size: 28px;
   margin: 20px;
-
-  box-sizing: border-box;
 }
 
 .tech-term{
   margin: 10px;
-
-  box-sizing: border-box;
 }
 .tech-term > dt{
   margin-left: 40px;
   margin-top: 10px;
-
-  box-sizing: border-box;
 }
 .tech-term > dd{
   margin-left: 70px;
   margin-top: 10px;
-
-  box-sizing: border-box;
 }
 
 code{
