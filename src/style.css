@@ -104,9 +104,8 @@ button:focus-visible {
   font-weight: 400;
   
   color-scheme: light dark;
-  background-color: #242424;
-  
-  width: 900px;
+  /* background-color: #242424; */
+  background-color: #000000;
 }
 
 body{
@@ -121,6 +120,9 @@ body{
 
 .tech-article{
   font-size: 18px;
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 }
 .headding-tech-article{
   font-size: 28px;
