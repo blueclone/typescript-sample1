@@ -100,9 +100,9 @@ button:focus-visible {
 
 :root{
   font-size: 16px;
-  line-height: 24px;
   font-weight: 400;
-  
+  line-height: 24px;
+
   color-scheme: light dark;
   /* background-color: #242424; */
   background-color: #000000;

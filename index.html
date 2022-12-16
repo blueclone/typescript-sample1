@@ -14,26 +14,27 @@
         <br />-技術文書を作ってみよう-
       </h1>
       <article class="tech-article">
-        <h2 class="headding-tech-article">
+        <h2 class="headding-tech-article">node</h2>
+        <h3 class="subheadding-tech-article">
           <a
             href="https://qiita.com/hashrock/items/15f4a4961183cfbb2658"
             target="_blank"
             rel="noopener noreferrer"
-            >node.jsのnpmコマンドについて</a
+            >node.jsのnpmコマンド</a
           >
-        </h2>
+        </h3>
         <dl class="tech-term">
           <dt><code>$ npm init</code></dt>
           <dd>「現在のディレクトリ下はnpmが管理する」という宣言</dd>
           <dt><code>$ npm install パッケージ名</code></dt>
           <dd>npmのリポジトリからパッケージをダウンロードしてくるコマンド</dd>
           <dt><code>$ npm run hogehoge</code></dt>
-          <dd>
-            <pre>
-              package.jsonに書かれたシェルスクリプトを実行するコマンド
-              例 : <code>$ npm run dev</code> はpackage.jsonのdevを実行する
-            </pre>
-          </dd>
+          <dd>package.jsonに書かれたシェルスクリプトを実行するコマンド</dd>
+        </dl>
+        <h3 class="subheadding-tech-article">使い方一例</h3>
+        <dl class="tech-term">
+          <dt><code>$ npm run dev</code></dt>
+          <dd>package.jsonのdevを実行する</dd>
         </dl>
       </article>
       <article class="tech-article">
@@ -185,7 +186,8 @@
           marginやpaddingなどで余白の調整
           <br />MECEな分類にする
           <br />引用したことがわかるような記述（>を用いる）
-          <br />目次を作る<br />codeのコピー機能の追加
+          <br />目次を作る<br />codeのコピー機能の追加。bgcを入れてcodeだとわかるようにする。
+          <br />ページの横幅によってCSSの当て方を変える
         </p>
       </dl>
     </main>
