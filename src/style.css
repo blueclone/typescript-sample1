@@ -120,20 +120,24 @@ body{
 .heading-tech-articles{
   font-size: 48px;
   text-align: center;
+  margin-top: 20px;
 }
 
-.headding-tech-article{
+.heading-tech-article{
   font-size: 28px;
-  margin: 20px;
+  margin: 30px;
 }
 
-.subheadding-tech-article{
+.subheading-tech-article{
   font-size: 18px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .tech-article{
   font-size: 18px;
+
+  margin-top: 20px;
+
   border-top: 2px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
