@@ -39,34 +39,36 @@
       <article class="tech-article">
         <h2 class="headding-tech-article">git</h2>
         <dl class="tech-term">
-          <dt>よく使うgitのコマンド</dt>
+          <dt>最頻出のgitコマンド</dt>
           <dd>
             add, checkout(またはswitch), clone, commit, fetch, merge, pull, push
           </dd>
-          <dt>具体例</dt>
-          <dd>
-            <code>$ git add .</code> : ステージへ全ての変更を持っていくコマンド
-          </dd>
-          <dd>
-            <code>$ git commit -m "コメント"</code> : コメント付きでcommitする
-          </dd>
-          <dd>
+          <dt>頻出のgitコマンド</dt>
+          <dd>reset, rebase, cherry-pick</dd>
+        </dl>
+        <h3 class="subheadding-tech-article">使い方一例</h3>
+        <dl class="tech-term">
+          <dt><code>$ git add .</code></dt>
+          <dd>ステージへ全ての変更を持っていくコマンド</dd>
+          <dt><code>$ git commit -m "コメント"</code></dt>
+          <dd>コメント付きでcommitする</dd>
+          <dt>
             <a
               href="https://reasonable-code.com/git-push-origin-head/"
               target="_blank"
               rel="noopener noreferrer"
               ><code>$ git push origin HEAD</code>
             </a>
-            : ローカルのブランチをリモートの同名ブランチにpushする
-          </dd>
-          <dt>その次に使うgitのコマンド</dt>
-          <dd>reset rebase cherry-pick</dd>
-          <dt>gitのマイルール</dt>
-          <dt>・commitはタスク単位でやろう</dt>
+          </dt>
+          <dd>ローカルのブランチをリモートの同名ブランチにpushする</dd>
+        </dl>
+        <h3 class="subheadding-tech-article">gitのマイルール</h3>
+        <dl class="tech-term">
+          <dt>commitはタスク単位でやろう</dt>
           <dd>
             なぜなら、大きな作業単位だと、あとで見返す時の負担が重くなるから
           </dd>
-          <dt>・commitしたら、すぐpushしよう</dt>
+          <dt>commitしたら、すぐpushしよう</dt>
           <dd>
             なぜなら、もしPCが壊れたとしても、リモートに上げているので作業の回復の労力が少なくなるから
           </dd>

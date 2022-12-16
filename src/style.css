@@ -122,15 +122,21 @@ body{
   text-align: center;
 }
 
+.headding-tech-article{
+  font-size: 28px;
+  margin: 20px;
+}
+
+.subheadding-tech-article{
+  font-size: 18px;
+  margin: 20px;
+}
+
 .tech-article{
   font-size: 18px;
   border-top: 2px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
-}
-.headding-tech-article{
-  font-size: 28px;
-  margin: 20px;
 }
 
 .tech-term{
