@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gitの備忘録</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="heading-tech-articles">gitの備忘録</h1>
+      <article class="tech-article">
+        <h2 class="heading-tech-article">git</h2>
+        <dl class="tech-term">
+          <dt>最頻出のgitコマンド</dt>
+          <dd>
+            add, checkout(またはswitch), clone, commit, fetch, merge, pull, push
+          </dd>
+          <dt>頻出のgitコマンド</dt>
+          <dd>reset, rebase, cherry-pick</dd>
+        </dl>
+        <h3 class="subheading-tech-article">使い方一例</h3>
+        <dl class="tech-term">
+          <dt><code>$ git add .</code></dt>
+          <dd>ステージへ全ての変更を持っていくコマンド</dd>
+          <dt><code>$ git commit -m "コメント"</code></dt>
+          <dd>コメント付きでcommitする</dd>
+          <dt>
+            <a
+              href="https://reasonable-code.com/git-push-origin-head/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><code>$ git push origin HEAD</code>
+            </a>
+          </dt>
+          <dd>ローカルのブランチをリモートの同名ブランチにpushする</dd>
+        </dl>
+        <h3 class="subheading-tech-article">gitのマイルール</h3>
+        <dl class="tech-term">
+          <dt>commitはタスク単位でやろう</dt>
+          <dd>
+            なぜなら、大きな作業単位だと、あとで見返す時の負担が重くなるから
+          </dd>
+          <dt>commitしたら、すぐpushしよう</dt>
+          <dd>
+            なぜなら、もしPCが壊れたとしても、リモートに上げているので作業の回復の労力が少なくなるから
+          </dd>
+        </dl>
+      </article>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

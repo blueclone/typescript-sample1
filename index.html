@@ -4,15 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>フロントエンドの備忘録</title>
   </head>
   <body>
     <div id="app"></div>
     <main>
-      <h1 class="heading-tech-articles">
-        フロントエンドの勉強
-        <br />-技術文書を作ってみよう-
-      </h1>
+      <h1 class="heading-tech-articles">フロントエンドの備忘録</h1>
       <article class="tech-article">
         <h2 class="heading-tech-article">node</h2>
         <h3 class="subheading-tech-article">
@@ -38,44 +35,6 @@
         </dl>
       </article>
       <article class="tech-article">
-        <h2 class="heading-tech-article">git</h2>
-        <dl class="tech-term">
-          <dt>最頻出のgitコマンド</dt>
-          <dd>
-            add, checkout(またはswitch), clone, commit, fetch, merge, pull, push
-          </dd>
-          <dt>頻出のgitコマンド</dt>
-          <dd>reset, rebase, cherry-pick</dd>
-        </dl>
-        <h3 class="subheading-tech-article">使い方一例</h3>
-        <dl class="tech-term">
-          <dt><code>$ git add .</code></dt>
-          <dd>ステージへ全ての変更を持っていくコマンド</dd>
-          <dt><code>$ git commit -m "コメント"</code></dt>
-          <dd>コメント付きでcommitする</dd>
-          <dt>
-            <a
-              href="https://reasonable-code.com/git-push-origin-head/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><code>$ git push origin HEAD</code>
-            </a>
-          </dt>
-          <dd>ローカルのブランチをリモートの同名ブランチにpushする</dd>
-        </dl>
-        <h3 class="subheading-tech-article">gitのマイルール</h3>
-        <dl class="tech-term">
-          <dt>commitはタスク単位でやろう</dt>
-          <dd>
-            なぜなら、大きな作業単位だと、あとで見返す時の負担が重くなるから
-          </dd>
-          <dt>commitしたら、すぐpushしよう</dt>
-          <dd>
-            なぜなら、もしPCが壊れたとしても、リモートに上げているので作業の回復の労力が少なくなるから
-          </dd>
-        </dl>
-      </article>
-      <article class="tech-article">
         <h2 class="heading-tech-article">vite</h2>
         <dl class="tech-term">
           <dt>
@@ -89,28 +48,6 @@
           <dd>
             現代のWebプロジェクトのために、より速く無駄のない開発体験を提供することを目的としたビルドツールです。2
             つの主要な部分で構成されています
-          </dd>
-        </dl>
-      </article>
-      <article class="tech-article">
-        <h2 class="heading-tech-article">zsh</h2>
-        <dl class="tech-term">
-          <dt>
-            <a
-              href="https://zenn.dev/xeres/articles/2021-05-05-understanding-zinit-syntax"
-              target="_blank"
-              rel="noopener noreferrer"
-              >zinit</a
-            >
-          </dt>
-          <dd>
-            zsh の便利なプラグインを管理するツール。
-            <a
-              href="https://github.com/zdharma-continuum/zinit"
-              target="_blank"
-              rel="noopener noreferrer"
-              >zinitインストール</a
-            >
           </dd>
         </dl>
       </article>
@@ -197,10 +134,21 @@
         </dl>
       </article>
       <article class="tech-article">
-        marginやpaddingなどで余白の調整
-        <br />MECEな分類にする <br />引用したことがわかるような記述（>を用いる）
-        <br />目次を作る<br />codeのコピー機能の追加。bgcを入れてcodeだとわかるようにする。
-        <br />ページの横幅によってCSSの当て方を変える
+        <pre>
+          <a href="./git.html">gitの備忘録</a>
+          <a href="./zsh.html">zshの備忘録</a>
+
+          marginやpaddingなどで余白の調整
+          MECEな分類にする
+          <a href="https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text" target="_blank" rel="noopener noreferrer">
+            引用したことがわかるような記述（>を用いる）
+          </a>
+          目次を作る
+          codeのコピー機能の追加。bgcを入れてcodeだとわかるようにする。
+          ページの横幅によってCSSの当て方を変える
+          cssの読み込ませかた
+          スクショしたコマンドの意味を調べて理解
+        </pre>
       </article>
     </main>
     <script type="module" src="/src/main.ts"></script>
