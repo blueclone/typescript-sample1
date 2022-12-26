@@ -155,6 +155,11 @@ body{
   margin-top: 10px;
 }
 
+.tech-term > li{
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
 code{
   color: #8ab4f8;
 }
