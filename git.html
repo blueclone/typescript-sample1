@@ -42,12 +42,30 @@
       <article class="tech-article">
         <h2 class="heading-tech-article">gitのコマンド</h2>
         <dl class="tech-term">
+          <dt><code>$ git add .</code></dt>
+          <dd>変更されたすべてのファイルをコミットするためのステージへ移動</dd>
+          <dt><code>git add hogehoge</code></dt>
+          <dd>
+            変更された hogehoge というファイルをコミットするためのステージへ移動
+          </dd>
+          <dt><code>$ git commit -m "コメント"</code></dt>
+          <dd>コメントを記述して commit する</dd>
+          <dt><code>$ git commit --amend -m "新たなコメント"</code></dt>
+          <dd>
+            直前に commit したファイルのコメントを新たなコメントに修正する
+          </dd>
+          <dt><code>$ git push origin カレントブランチ名</code></dt>
+          <dd>カレントブランチを同名のリモートブランチにプッシュする</dd>
+          <dt><code>$ git push origin HEAD</code></dt>
+          <dd>
+            カレントブランチ名を指定しなくても、同名のリモートブランチにカレントブランチをプッシュできる
+          </dd>
           <dt>
             <a
               href="https://qumeru.com/magazine/510"
               target="_blank"
               rel="noopener noreferrer"
-              >Gitのコミットメッセージを後から修正変更する方法！</a
+              >Gitのコミットメッセージを後から修正変更する方法!</a
             >
           </dt>
           <dt>
