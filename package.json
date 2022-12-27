@@ -13,6 +13,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "@unocss/reset": "^0.47.6"
+    "@unocss/reset": "^0.47.6",
+    "cowsay": "^1.5.0"
   }
 }
